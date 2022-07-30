@@ -20,7 +20,7 @@
     ]
   },
   "mixins": [
-    "sodiumfix.sodium.mixins"
+    "sodiumfix.sodium.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.6",
