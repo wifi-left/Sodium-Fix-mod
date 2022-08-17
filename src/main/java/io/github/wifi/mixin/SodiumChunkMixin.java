@@ -31,7 +31,7 @@ public abstract class SodiumChunkMixin {
 
         if ((existingFlags & ChunkStatus.FLAG_HAS_BLOCK_DATA) == 0) {
             // throw new IllegalStateException("Tried to mark light data as ready for chunk [%s, %s] but it hasn't been loaded yet".formatted(x, z));
-			ModOnLoad.LOGGER.error("Tried to mark light data as ready for chunk ["+x+", "+z+"] but it hasn't been loaded yet");
+			//ModOnLoad.LOGGER.error("Tried to mark light data as ready for chunk ["+x+", "+z+"] but it hasn't been loaded yet");
             return;
         }
 
